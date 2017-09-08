@@ -4,10 +4,17 @@ module.exports = {
 // formatter
 //
 function toClosedCaption(stt, style){
-if ( !style.maxLineTime ) style.maxLineTime = 2.0;
-if ( !style.includeHesitations ) style.includeHesitations = false;
-if ( style.ccStyle === "srt" )    style.srt = true;
-if ( style.ccStyle === "vtt" )     style.vtt = true;
+if ( style === undefined ){style = {};
+		     console.log("Using default style");};
+
+if ( style.maxLineTime === undefined ||  isNaN(style.maxLineTime)) {style.maxLineTime = 2.0;console.log("Using default line length");}
+if ( style.includeHesitations === undefined || (!(typeof(style.includeHesitations) === "boolean"))) {style.includeHesitations = false;  console.log("Using default hesitations");}
+if ( style.ccStyle === undefined ) {style.ccStyle ="srt"; console.log("Using default ccStyle");}
+if ( style.ccStyle === "srt" )   {style.srt = true;} else {
+if ( style.ccStyle === "vtt" )   {style.vtt = true;} else {
+	style.srt = true;console.log("Using default ccStyle");}}
+if ( style.suppressMultipleSpeakers === undefined || (!(typeof(style.suppressMultipleSpeakers) === "boolean"))) {style.suppressMultipleSpeakers = false;  console.log("Using default suppressMultipleSpeakers");}
+
 
 if ( style.vtt     ) cc_out = prologueVtt();
 if ( style.srt     ) cc_out = prologueSrt();
