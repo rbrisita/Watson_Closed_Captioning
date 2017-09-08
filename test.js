@@ -6,7 +6,7 @@ var formatter = require("./STT_to_CC_Format").toClosedCaption;
 var style = {maxLineTime: 3.0, 
 		     includeHesitations: false, 
 		     ccStyle: "srt",
-		     suppressMultipleSpeakers: true};
+		     suppressMultipleSpeakers: false};
 
-var s = formatter(ts2, style);
-console.log("S is "+s);
+var s = formatter(ts1, style);
+console.log(s);
