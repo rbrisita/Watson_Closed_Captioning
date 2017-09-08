@@ -18,7 +18,7 @@ The Bluemix Watson Speech To Text service produces raw text output with time mar
 ## Usage
 Two parameters. The first is the STT results in JSON format. 
 Use the STT Final Results as input  
-See [STT](https://console.bluemix.net/docs/services/speech-to-text/index.html#about) for details on Watson Speech to Text.
+See [Watson Speech to Text](https://console.bluemix.net/docs/services/speech-to-text/index.html#about) for details on how to work with STT.
 
 
 The second is a style block the allows the following settings:
