@@ -34,6 +34,10 @@ The second is a style block the allows the following settings:
 
 see test.js for example
 
+## Wishlist
+
+A Node-Red module that encapsulated this behavior
+
 ### Tools
 
 Created with [Nodeclipse](https://github.com/Nodeclipse/nodeclipse-1)
