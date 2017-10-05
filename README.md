@@ -16,7 +16,7 @@ The Bluemix Watson Speech To Text service produces raw text output with time mar
 
 
 ## Usage
-Two parameters. The first is the STT results in JSON format. 
+Two parameters. The first is the Watson STT service results in JSON format. 
 Use the STT Final Results as input  
 See [Watson Speech to Text](https://console.bluemix.net/docs/services/speech-to-text/index.html#about) for details on how to work with STT.
 
@@ -24,10 +24,12 @@ See [Watson Speech to Text](https://console.bluemix.net/docs/services/speech-to-
 The second is a style block the allows the following settings:
 
 * maxLineTime - The maximum amount of time in seconds for each frame of closed caption output. Default to 2 seconds
-* includeHesitations - Watson produces %HESITATION tags. Set this to true if you want to see them. Default false.
-* ccStyle - Can be either "srt" or "vtt". Default is "srt". 
-* suppressMultipleSpeakers - Normally this outputs Speaker 0: Speaker 1: etc. at each speaker transition, if Watson STT produced that information. You can suppress the speaker tags by setting this to false. It will still do a line break at each speaker. Defalt is false.
+* suppressHesitations - Watson produces %HESITATION tags. Set this to true if you want to see them. Default false.
+* outputStyle - Can be either "SRT" or "VTT". Default is "SRT". 
+* suppressSpeakerLabels - Normally this outputs Speaker 0: Speaker 1: etc. at each speaker transition, if Watson STT produced that information. You can suppress the speaker tags by setting this to false. It will still do a line break at each speaker. Default is false.
+* verbose - prints more stuff.
 
+This can also be used as a node-red module
 
 
 ## Developing
@@ -36,7 +38,7 @@ see test.js for example
 
 ## Wishlist
 
-A Node-Red module that encapsulated this behavior
+Minor things I want to fix
 
 ### Tools
 
