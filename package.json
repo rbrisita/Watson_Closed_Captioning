@@ -1,0 +1,21 @@
+{
+  "name": "watson-closed-captions",
+  "version": "1.0.0",
+  "description": "Produces closed captions from Watson Speech to Text results",
+  "main": "watson-closed-captions.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DTHompson55/Watson_closed_Captioning"
+  },
+  "author": "Daniel Thompson",
+  "license": "ISC",
+ 
+    "node-red" : {
+        "nodes": {
+            "watson-closed-captions": "watson-closed-captions.js"
+        }
+    } 
+}

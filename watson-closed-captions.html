@@ -1,0 +1,56 @@
+<script type="text/javascript">
+    RED.nodes.registerType('watson-closed-captions',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""},            
+            timePerLine:{value: 2},
+            ccStyle: {value:"SRT"},
+            suppressHesitations: {value:"true"},
+            suppressSpeakerLabels: {value:"true"},
+            verbose: {value: false}
+
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"watson-closed-captions";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="watson-closed-captions">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Named</label>
+        <input type="text" id="node-input-name" placeholder="Closed Captions">
+    </div>
+    <div class="form-row">
+        <label for="node-input-timePerLine"><i class="icon-tag"></i> Time per Line</label>
+        <input type="number" id="node-input-timePerLine" placeholder="2.0">
+   </div>
+    <div class="form-row">
+        <label for="node-input-ccStyle"><i class="icon-tag"></i> Style</label>
+<select id="node-input-ccStyle">
+  <option value="SRT">SRT</option>
+  <option value="VTT">VTT</option>
+</select>
+
+   </div>
+    <div class="form-row">
+		<label for="node-input-suppressHesitations"><i class="icon-tag"></i>Suppress Hesitations</label>
+        <input type="checkbox" id="node-input-suppressHesitations" >
+  </div>
+    <div class="form-row">
+        <label for="node-input-suppressSpeakerLabels"><i class="icon-tag"></i> Suppress Speaker Labels</label>
+        <input type="checkbox" id="node-input-suppressSpeakerLabels" >
+   </div>
+    <div class="form-row">
+        <label for="node-input-verbose"><i class="icon-tag"></i> Verbose</label>
+        <input type="checkbox" id="node-input-verbose" >
+   </div>
+</script>
+
+<script type="text/x-red" data-help-name="watson-closed-captions">
+    <p>A simple node that converts the Watson STT payloads into closed-captions payloads</p>
+</script>
