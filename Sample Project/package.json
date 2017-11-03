@@ -1,0 +1,12 @@
+{
+  "name": "subtitles",
+  "description": "subtitles description",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "mustache": "^2.3.0"
+  }
+}

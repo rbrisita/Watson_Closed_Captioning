@@ -1,0 +1,619 @@
+WEBVTT
+
+0
+00:00:02.990 --> 00:00:06.040
+Hey did Thompson here today we're going to talk about IBM video
+
+1
+00:00:06.040 --> 00:00:09.160
+transcription on bluemix so
+
+2
+00:00:09.160 --> 00:00:12.230
+there's a need for transcription of video
+
+3
+00:00:12.230 --> 00:00:15.860
+libraries of professors talking in front of a class
+
+4
+00:00:15.890 --> 00:00:19.380
+of students ATA Americans
+
+5
+00:00:19.380 --> 00:00:22.670
+with disabilities lawsuits have been increasing so it's really a portent
+
+6
+00:00:22.970 --> 00:00:26.030
+to get front of this a lot of universities have
+
+7
+00:00:26.030 --> 00:00:29.650
+dozens or hundreds of thousands of hours of videos that need to be processed
+
+8
+00:00:30.010 --> 00:00:33.120
+it becomes very costly if you do it up
+
+9
+00:00:33.120 --> 00:00:36.370
+by head it's %HESITATION today's being done manually combinations
+
+10
+00:00:36.370 --> 00:00:40.280
+dragon perhaps incantation requires
+
+11
+00:00:40.280 --> 00:00:43.610
+trade workers it's really boring and tedious to pull those videos
+
+12
+00:00:43.610 --> 00:00:46.970
+together transcripts get misplaced the the
+
+13
+00:00:46.970 --> 00:00:50.450
+right transcript us get put out to the right video it's just a mess and
+
+14
+00:00:50.450 --> 00:00:53.600
+hard to keep track of the quality it'd keep track the progress
+
+15
+00:00:53.600 --> 00:00:56.650
+so it producing
+
+16
+00:00:56.690 --> 00:00:59.920
+Watson's speech to text no Watson speech to text
+
+17
+00:01:00.280 --> 00:01:03.500
+yelled about Watson it's that a guy that lives in the cloud
+
+18
+00:01:03.500 --> 00:01:06.650
+that would jeopardy a few years ago really smart
+
+19
+00:01:07.690 --> 00:01:10.800
+it takes speech input and produces text output
+
+20
+00:01:10.800 --> 00:01:15.070
+that supports a eight different languages today I
+
+21
+00:01:15.070 --> 00:01:18.530
+could support multiple speakers and put labels and for other speakers
+
+22
+00:01:18.530 --> 00:01:21.820
+to say of who they are it's a cloud based
+
+23
+00:01:21.820 --> 00:01:25.040
+Watson cognitive service IBM is famous for
+
+24
+00:01:25.040 --> 00:01:28.930
+its cognitive services it's the highest quality audio
+
+25
+00:01:28.930 --> 00:01:32.160
+transcription of the industry today very low cost
+
+26
+00:01:32.160 --> 00:01:35.380
+two cents a minute there's volume discounts go over the pricing
+
+27
+00:01:35.380 --> 00:01:38.450
+later a first one thousand but it's a free the
+
+28
+00:01:38.450 --> 00:01:41.550
+big questions are where is your audio and video come from do you have
+
+29
+00:01:41.550 --> 00:01:44.850
+libraries of video that he transcribed do
+
+30
+00:01:44.850 --> 00:01:47.960
+you have professors talking in front of classrooms full
+
+31
+00:01:47.960 --> 00:01:51.110
+of students or some combination of these things
+
+32
+00:01:51.290 --> 00:01:54.600
+to that how do you want to use that output to simply want to take the output
+
+33
+00:01:54.630 --> 00:01:58.010
+and move it to a you tube repository
+
+34
+00:01:58.210 --> 00:02:01.470
+%HESITATION do you want to make it available to students on subscriber's
+
+35
+00:02:01.470 --> 00:02:04.480
+smart app O. to take care of
+
+36
+00:02:04.480 --> 00:02:07.930
+it AT a in the classroom so the Zulu
+
+37
+00:02:08.000 --> 00:02:11.080
+big questions we solve all of those you know what we talk
+
+38
+00:02:11.080 --> 00:02:14.630
+about an API the cloud it's
+
+39
+00:02:14.630 --> 00:02:17.830
+a programmer to face you could build an application using
+
+40
+00:02:17.830 --> 00:02:20.930
+it today we could build it for you with your input
+
+41
+00:02:20.930 --> 00:02:24.680
+that we have something called the crush method where we build that application
+
+42
+00:02:24.680 --> 00:02:27.760
+exactly the way you want it IBM business partners
+
+43
+00:02:27.930 --> 00:02:31.040
+have prepackaged solutions to do all of this and they
+
+44
+00:02:31.040 --> 00:02:34.090
+want to get into universities today so
+
+45
+00:02:34.320 --> 00:02:37.420
+they're priced right to get it to the university market we also have
+
+46
+00:02:37.420 --> 00:02:40.550
+something called the Watson BT a lab but it's far more than most
+
+47
+00:02:40.550 --> 00:02:43.840
+universities need of it if you using
+
+48
+00:02:43.840 --> 00:02:47.030
+you to today you might want to think about using the IBM cloud
+
+49
+00:02:47.030 --> 00:02:50.040
+video service which is a streaming service a lot like YouTube
+
+50
+00:02:50.470 --> 00:02:53.640
+us the streaming storage it's designed to meet the needs
+
+51
+00:02:53.640 --> 00:02:56.700
+of businesses and hospitals universities pseudo code
+
+52
+00:02:56.700 --> 00:03:00.000
+solution %HESITATION closed captions provided
+
+53
+00:03:00.000 --> 00:03:03.050
+by watts's secede closed caption that we've just been talking about
+
+54
+00:03:03.300 --> 00:03:06.810
+the main thing is it secured it's hard it's industrialized your
+
+55
+00:03:06.810 --> 00:03:09.920
+content remains yours it if you don't know what that means
+
+56
+00:03:09.920 --> 00:03:13.160
+you should read the Google terms of service I rode
+
+57
+00:03:13.200 --> 00:03:16.490
+a you tube what we're gonna see today
+
+58
+00:03:16.490 --> 00:03:20.190
+does not rely on a cloud video although you could use it so
+
+59
+00:03:20.190 --> 00:03:24.490
+let's go and show you a couple demos so
+
+60
+00:03:24.490 --> 00:03:27.880
+thank you very much for coming Dave it's good to have you here it
+
+61
+00:03:27.880 --> 00:03:31.560
+is my pleasure Michael glad to be with you how real is
+
+62
+00:03:31.560 --> 00:03:35.070
+artificial intelligence the question of how real is artificial
+
+63
+00:03:35.070 --> 00:03:38.220
+intelligence is a complex one don I would
+
+64
+00:03:38.220 --> 00:03:41.650
+say %HESITATION give if we define
+
+65
+00:03:41.800 --> 00:03:44.870
+artificial intelligence is the ability of a machine
+
+66
+00:03:45.260 --> 00:03:48.300
+on itself to so the minister
+
+67
+00:03:48.300 --> 00:03:51.330
+operate there a couple interesting things you saw that it
+
+68
+00:03:51.330 --> 00:03:54.450
+had speaker labels for the speaker labels changed as
+
+69
+00:03:54.450 --> 00:03:57.560
+Watson was able to determine which voice was attached
+
+70
+00:03:57.560 --> 00:04:01.120
+to a witch sentences which utterances also
+
+71
+00:04:02.090 --> 00:04:05.660
+as Watson was progressing through each sentence he was using the context
+
+72
+00:04:05.660 --> 00:04:08.920
+of the sins to pick the correct words goes
+
+73
+00:04:08.920 --> 00:04:12.170
+through and find its words that a potential matches and that is it builds
+
+74
+00:04:12.170 --> 00:04:15.280
+out the contents selects the correct word for
+
+75
+00:04:15.280 --> 00:04:18.390
+this and so it's a very good transcriptions so this is the kind
+
+76
+00:04:18.390 --> 00:04:21.680
+of transcription that you would see coming out of what's is very typical
+
+77
+00:04:22.520 --> 00:04:25.600
+it's going to another sample and this is an example of
+
+78
+00:04:25.600 --> 00:04:28.730
+Emma Watson you know in the Watson from the Harry potter movies
+
+79
+00:04:28.970 --> 00:04:32.080
+so what we're seeing here is a little bit different
+
+80
+00:04:32.120 --> 00:04:35.130
+it's going to transcribe the audio but
+
+81
+00:04:35.130 --> 00:04:38.310
+it's also going to give us some key words %HESITATION and analyze
+
+82
+00:04:38.310 --> 00:04:41.380
+what's being spoken showed him to lend her voice to
+
+83
+00:04:41.380 --> 00:04:44.430
+this very important solidarity movement she's
+
+84
+00:04:44.430 --> 00:04:47.560
+a leading British actor and advocate for gender equality
+
+85
+00:04:47.560 --> 00:04:51.250
+in her own right she's been involved with the promotion of girls education
+
+86
+00:04:51.460 --> 00:04:54.900
+for several years that's part of her here and humanitarian
+
+87
+00:04:54.900 --> 00:04:58.450
+efforts she's visited Bangladesh Zambia
+
+88
+00:04:58.690 --> 00:05:01.710
+recently returned as we just heard from Uruguay on her
+
+89
+00:05:01.710 --> 00:05:04.750
+first mission with you when women ladies
+
+90
+00:05:04.750 --> 00:05:08.160
+and gentlemen please join me in welcoming to this stage are co host
+
+91
+00:05:08.480 --> 00:05:11.880
+and the UN women global goodwill ambassador Emma
+
+92
+00:05:11.880 --> 00:05:15.200
+Watson soon she's
+
+93
+00:05:15.290 --> 00:05:20.220
+a walking up to the stage and screen point out a couple things here Watson
+
+94
+00:05:20.220 --> 00:05:23.700
+is going in and picking out certain key words that it's detecting
+
+95
+00:05:24.190 --> 00:05:31.180
+in the text when she starts speaking you
+
+96
+00:05:31.180 --> 00:05:34.370
+excellencies UN secretary
+
+97
+00:05:34.370 --> 00:05:37.500
+general president of the General
+
+98
+00:05:37.500 --> 00:05:40.570
+Assembly executive director
+
+99
+00:05:40.630 --> 00:05:43.900
+of the UN women and distinguished guests
+
+100
+00:05:46.330 --> 00:05:50.240
+today we are launching a campaign post
+
+101
+00:05:50.240 --> 00:05:53.310
+up there you can see it's a very good transcription
+
+102
+00:05:53.670 --> 00:05:56.920
+%HESITATION it's she also speaks in a British accent so it's very important
+
+103
+00:05:56.920 --> 00:06:00.040
+to be able to take accents into account %HESITATION
+
+104
+00:06:00.040 --> 00:06:03.340
+and also were picking up these these key words you
+
+105
+00:06:03.340 --> 00:06:06.540
+might use those key words to to auto indexing of
+
+106
+00:06:06.570 --> 00:06:10.180
+a video library if people wanted to know abounds
+
+107
+00:06:10.470 --> 00:06:13.580
+can I find videos on gender equality these key
+
+108
+00:06:13.580 --> 00:06:16.860
+words could be used for that kind of search criteria thought
+
+109
+00:06:16.860 --> 00:06:20.060
+it could also be used to find specific points are
+
+110
+00:06:20.060 --> 00:06:23.190
+in a video so if you had a video
+
+111
+00:06:23.190 --> 00:06:26.340
+about cats it might say that the cat
+
+112
+00:06:26.340 --> 00:06:29.490
+was mentioned at three minutes and twenty one seconds and five
+
+113
+00:06:29.490 --> 00:06:32.790
+minutes and twenty seven seconds so gives you weighted index into
+
+114
+00:06:32.790 --> 00:06:36.170
+videos as well so those are two key aspects
+
+115
+00:06:36.200 --> 00:06:39.410
+of speech Texan will show you one more demo to
+
+116
+00:06:39.410 --> 00:06:42.680
+this is just something I wrote because %HESITATION away
+
+117
+00:06:42.680 --> 00:06:46.020
+to see how easy it was to use those API's
+
+118
+00:06:46.020 --> 00:06:49.200
+and write a little program around it says five steps of going
+
+119
+00:06:49.200 --> 00:06:52.320
+to import a video file a good verify that is
+
+120
+00:06:52.320 --> 00:06:55.710
+the correct video file wait for Watson to make the transcription
+
+121
+00:06:55.930 --> 00:06:59.100
+and that review the results and make any any corrections
+
+122
+00:06:59.280 --> 00:07:02.520
+so let's do this and I just go pick a short
+
+123
+00:07:02.520 --> 00:07:06.100
+video because it takes as long to transcribe the video %HESITATION
+
+124
+00:07:06.100 --> 00:07:09.220
+as it does to to play the video I'm pretty much so
+
+125
+00:07:09.220 --> 00:07:12.350
+this is the video that I selected you see we have a video of you were here
+
+126
+00:07:12.650 --> 00:07:16.070
+fit play it so robotic process automation imagine
+
+127
+00:07:16.070 --> 00:07:19.190
+your job that's me %HESITATION talked about robotic
+
+128
+00:07:19.190 --> 00:07:22.310
+process automation we gotta make some choices here we're gonna say which
+
+129
+00:07:22.310 --> 00:07:26.560
+languages it and we're going to pick you S. English we're
+
+130
+00:07:26.560 --> 00:07:29.900
+gonna pick the out put style so there's basically two %HESITATION
+
+131
+00:07:30.410 --> 00:07:33.640
+captioning outputs Giles VTT ed SRT
+
+132
+00:07:33.930 --> 00:07:37.160
+your streaming service will tell you to use water the other
+
+133
+00:07:37.690 --> 00:07:41.340
+utility use a single speakers in multiple speakers so
+
+134
+00:07:41.430 --> 00:07:44.860
+heavily this choices will submit the
+
+135
+00:07:44.860 --> 00:07:47.980
+what we're looking at here is just really Watson this is the guts
+
+136
+00:07:47.980 --> 00:07:51.470
+of how Watson is doing it %HESITATION we've converted the
+
+137
+00:07:51.560 --> 00:07:55.110
+audio of the video and audio and it
+
+138
+00:07:55.110 --> 00:07:58.120
+it's done just that quickly about fifteen seconds so now
+
+139
+00:07:58.120 --> 00:08:01.150
+we go back and play it so robotic process
+
+140
+00:08:01.150 --> 00:08:04.350
+automation imagine your job is to come in in the morning
+
+141
+00:08:04.570 --> 00:08:07.660
+so you can see that %HESITATION watts's actually added subtitles to
+
+142
+00:08:07.660 --> 00:08:10.940
+the video now the the subtitles it added
+
+143
+00:08:10.940 --> 00:08:14.020
+did not have upper case and lower
+
+144
+00:08:14.020 --> 00:08:17.650
+case so we're just gonna make Simba case
+
+145
+00:08:17.650 --> 00:08:23.410
+adjustments will add some punctuation adjustments just
+
+146
+00:08:23.410 --> 00:08:26.420
+to show you how that works of it so I'm just going
+
+147
+00:08:26.420 --> 00:08:29.700
+to submit those updates back
+
+148
+00:08:29.700 --> 00:08:32.950
+up this is part of how we treat things ed
+
+149
+00:08:32.950 --> 00:08:36.290
+note we play that's a video it will have a product process
+
+150
+00:08:36.290 --> 00:08:39.550
+automation imagine your job does updates so again
+
+151
+00:08:39.550 --> 00:08:42.990
+very easy to %HESITATION to edit and make changes so
+
+152
+00:08:42.990 --> 00:08:46.330
+those are the three basic ways to use Watson's speech to text
+
+153
+00:08:47.040 --> 00:08:50.100
+I hope it was informative and %HESITATION did tops
+
+
