@@ -1,15 +1,15 @@
 # Watson\_Closed\_Captioning
 The Bluemix Watson Speech To Text service produces json output with time markers,optional speaker markers, and other information. This utility produces Closed Captioning transcripts in your choice of SRT or VTT from the Watson Speech To Text results. You can take the resulting output and upload it to your streaming service using their API. Alternatively, output to a file and upload manually. Support for the optional Watson Smart Formatting was recently added.
 
->0  
+>1  
 >00:00:00,80 --> 00:00:04,11  
 >my family absolute is fascinated by  
 >   
->1  
+>2  
 >00:00:04,14 --> 00:00:07,23  
 >the work I'm doing with Watson and I I  
 >   
->2  
+>3  
 >00:00:07,23 --> 00:00:10,72  
 >think they feel a personal sense of pride and satisfaction  
 >   

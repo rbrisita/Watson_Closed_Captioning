@@ -32,7 +32,7 @@ function timeFmtVtt(f) {
 
 function formatSrt(frames, showSpeakerLabels, cc) {
 	frames.map(function(frame) {
-		cc += frame.frameNumber + "\n";
+		cc += frame.frameNumber + 1 + "\n";
 		cc += timeFmtSrt(frame.start) + " --> " + timeFmtSrt(frame.end) + "\n";
 		if (showSpeakerLabels) {
 			cc += "Speaker " + frame.speaker + ": ";
